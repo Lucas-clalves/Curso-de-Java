@@ -1,0 +1,20 @@
+package EXs;
+
+import java.util.Scanner;
+
+public class Testes {
+    public static void main(String[] args) {
+    
+    	Scanner scanner = new Scanner(System.in);
+    	
+    	String a = scanner.next();
+    	System.out.println(a);
+    	
+    	
+    	scanner.close();
+    
+    }
+ 
+
+
+}
