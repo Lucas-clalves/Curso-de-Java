@@ -11,6 +11,7 @@ public class AreaDeUmTriangulo {
 		System.out.println("Programa de calculo da área de um triângulo.");
 		System.out.println("Informe a base do triangulo:");
 		double base = scanner.nextDouble();
+
 		System.out.println("Agora informe a altura:");
 		double altura = scanner.nextDouble();
 		

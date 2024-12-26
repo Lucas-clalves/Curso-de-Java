@@ -6,7 +6,7 @@ public class Atividade07 {
 		System.out.println("calculo de valor quadrado de 15 a 200.");
 		
 		int i = 15;
-		int quadrado = 0;
+		int quadrado;
 		
 		while(i<=200) {
 			quadrado = i*i;

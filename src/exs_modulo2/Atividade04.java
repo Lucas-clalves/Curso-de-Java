@@ -23,7 +23,7 @@ public class Atividade04 {
 			
 			}
 		
-		double media = soma/i;
+		double media = (double) soma/i;
 		
 		System.out.printf("A media das idades é:%.2f",media);
 		

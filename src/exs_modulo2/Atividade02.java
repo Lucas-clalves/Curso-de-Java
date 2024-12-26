@@ -21,7 +21,7 @@ public class Atividade02 {
 		somaQuadrada = somaQuadrada + i*i;
 		i = i+1;
 		}
-		double media = soma/n;
+		double media = (double) soma/n;
 		
 		System.out.printf("A soma é:%d%n"
 				+ "A soma quadrada é:%d%n",soma,somaQuadrada);

@@ -10,13 +10,13 @@ public class Atividade03 {
 
 		System.out.println("Escreva um numero:");
 		int numero = scanner.nextInt();
-		int numeroQuadrado = 0;
+		int numeroQuadrado;
 		
 		while(numero >=0) {
 			numeroQuadrado = numero*numero;
 			System.out.printf("%s%d%s%d%n","O valor quadrado de ",numero," é ", numeroQuadrado);
 			
-			System.out.println("Escreva proximo numero:");
+			System.out.println("Escreva próximo numero:");
 			numero = scanner.nextInt();
 		}
 		System.out.println("Programa fechado, obrigado!");

@@ -13,7 +13,7 @@ public class Atividade06 {
 		int nunDeMercadorias = scanner.nextInt();
 		
 		double fatMensal =0;
-		double fatIndividual =0;
+		double fatIndividual;
 		int i = 0;
 		
 		while (i < nunDeMercadorias) {
@@ -26,7 +26,7 @@ public class Atividade06 {
 			System.out.println("quantos(a) "+nome+" foram vendidos no mês?");
 			int vendNoMes = scanner.nextInt();
 			
-			fatIndividual = (double) quantoCusta*vendNoMes;
+			fatIndividual = quantoCusta*vendNoMes;
 			System.out.printf("%s%s%s%.2f%n","A quantidade de ", nome ," vendidas por mês é:",fatIndividual);
 			
 			fatMensal= fatMensal+fatIndividual;
