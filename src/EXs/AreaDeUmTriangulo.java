@@ -14,7 +14,7 @@ public class AreaDeUmTriangulo {
 
 		System.out.println("Agora informe a altura:");
 		double altura = scanner.nextDouble();
-		
+			
 		double area = base * altura/2;
 		
 		System.out.printf("A área do triangulo é:%.3f%n", area);
